@@ -1,0 +1,32 @@
+/* Easy Insert */
+/* Made by Mails Nielsen */
+/* Version 1.0 */
+/* 2024-04-04 */
+
+:root {
+    --main-bg-color: #F9F9F9;
+    --main-width: 26.25rem; /* 420px */
+}
+
+html, body {
+    width: var(--main-width);
+    background-color: var(--main-bg-color);
+}
+
+textarea {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 0.5rem; /* 8px */
+}
+
+#trennzeichen {
+    text-align: center;
+}
+
+#logo {
+    margin: 0.5rem auto; /* 8px auto */
+    display: block;
+}

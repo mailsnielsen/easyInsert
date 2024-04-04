@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <link href="css/mini-default.min.css" rel="stylesheet">
+    <link href="css/easyInsert.css" rel="stylesheet">
+    <title>easyInsert Extension</title>
+</head>
+<body>
+<main>
+    <img alt="Logo" height="48" id="logo" src="icon-48.png" width="48">
+    <hr>
+    <h5>Zeilen kopieren und einfügen</h5>
+    <p>Ganze Zeile aus der Excel Tabelle kopieren und hier einfügen.</p>
+    <form action="#">
+        <div class="row">
+            <div class="col-sm-12">
+                <label for="input">Daten extrahieren aus:</label>
+                <textarea id="input" placeholder="Wert1	Wert2	Wert3	Wert4" rows="4"></textarea>
+            </div>
+            <div class="col-sm-12">
+                <button class="inverse" id="submit" type="button">Einfügen</button>
+            </div>
+            <div class="col-sm-12 " id="trennzeichen">
+                <small>Aktuelles Trennzeichen: Tab</small>
+            </div>
+        </div>
+    </form>
+</main>
+<footer>
+    <small>Version 1.0</small> <br>
+    <small>Made with ❤️ by Mails Nielsen </small>
+</footer>
+<script src="js/easyInsert.js"></script>
+</body>
+</html>
